@@ -11,10 +11,11 @@ export default defineConfig({
     ServerRef({
       debug: true,
       state: {
+        foo: 'bar',
         nav: {
           cursor: {
             x: 0,
-            y: 0,
+            y: 0
           }
         }
       }
